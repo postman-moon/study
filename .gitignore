@@ -1,6 +1,10 @@
 # 忽略编译生成的文件
 *.o
 *.out
+!*.cpp
+!*.c
+!*.h
+!makefile
 
 # 忽略IDE生成的文件
 .vscode/
